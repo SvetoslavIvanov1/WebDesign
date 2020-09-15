@@ -1,0 +1,408 @@
+/* Styling for the body */
+
+
+body {
+    background-color: #33cccc;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: 900px;
+    padding: 0;
+    font-size: 90%;
+    font-family: arial, verdana, sans-serif;
+    line-height: 1.5;
+
+}
+
+/* Styling for the logo */
+.logo	{
+    float:right;
+    width:350px;
+    position: relative;
+    left: -35%;
+    top:0%;
+}
+
+/* Styling for the header*/
+header 	{
+    overflow: auto;
+    padding-bottom: 5px;
+    width: 100%;
+    height: 75%;
+
+    float:left;
+    overflow-x: hidden;
+
+}
+
+
+
+.ImageII {
+
+
+    background-image: url("images/BEACH1.jpg");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 50px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+    padding-left: 250px;
+    width: 100%;
+    height: 85%;
+    text-align: center;
+
+
+}
+
+/* Styling for the h1
+I have made the text with a black shadow
+so that it can be read no matter the
+background*/
+h1 {
+    font-size: 3.5em;
+    color: #fff;
+    font-family:"arial";
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position:absolute;
+    right: 40%;
+    top: 30%;
+
+}
+
+/* Styling for the text you see next to the logo
+same thing for the text shadow.*/
+
+
+.Intro  {
+    font-family: Arial;
+    text-align: center;
+    font-size:1.5em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
+    bottom: -60%;
+
+
+}
+
+/* Styling for the nav */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #008CBA;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Arial;
+
+}
+
+
+li a:hover {
+    background-color: black;
+}
+
+/* Styling for the Available Holidays text */
+.AH {
+
+    text-align:center;
+    font-size: 2.5em;
+    color: white;
+    font-family:Arial;
+    bottom: 10em;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    position: relative;
+    top: 3%;
+    margin-bottom: 5%;
+
+
+}
+
+
+/* Styling for the Holidays
+ i have put  high-quality images and when you hover above them
+ information about the holidays will pop up.*/
+
+/* Styling For The First Holiday */
+.container {
+    position: relative;
+    width: 50%;
+    float:right;
+
+
+
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+
+}
+
+.container:hover .overlay {
+    opacity: 0.8;
+
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+/* Styling For The Second Holiday */
+
+.container2 {
+    position: relative;
+    width: 50%;
+    float:left;
+
+}
+
+.image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container2:hover .overlay2 {
+    opacity: 0.8;
+}
+
+.text2 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Styling For The Third Holiday */
+.container3 {
+    position: relative;
+    width: 50%;
+    float:right;
+
+
+}
+
+.image3 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay3 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container3:hover .overlay3 {
+    opacity: 0.8;
+}
+
+.text3 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Styling For The Fourth Holiday.*/
+
+.container4 {
+    position: relative;
+    width: 50%;
+    float:right;
+
+
+}
+
+.image4 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay4 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container4:hover .overlay4 {
+    opacity: 0.8;
+}
+
+.text4 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+/* Styling for the footer i have made it simple as a footer should be */
+footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#008CBA ;
+    color: white;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+/* Styling for the Latest news text */
+.LN {
+
+    text-align:center;
+    font-size: 2.5em;
+    color: white;
+    font-family:Arial;
+
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+
+
+
+}
+
+/* Styling for the Latest news texts*/
+.News1 {
+    width: 650px;
+    height:  50px;
+    border: 2px solid white;
+    font-size:1.1em;
+    margin: auto;
+    text-align: center;
+    background-color: #008CBA;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+
+}
+
+.News2 {
+    width: 650px;
+    height: 50px;
+    border: 2px solid white;
+    font-size:1.1em;
+    margin: auto;
+    text-align: center;
+    background-color: #008CBA;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+.News3 {
+    width: 650px;
+    height: 50px;
+    border: 2px solid white;
+    font-size:1.1em;
+    margin: auto;
+    text-align: center;
+    background-color: #008CBA;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
+.News4 {
+    width: 650px;
+    height: 50px;
+    border: 2px solid white;
+    font-size:1.1em;
+    margin: auto;
+    text-align: center;
+    background-color: #008CBA;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

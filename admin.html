@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="admin.css" rel="stylesheet" type="text/css" />
+    <title>Admin</title>
+</head>
+<body>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="HolidayQuery.php">View Holidays</a></li>
+    <li><a href="admin.html">Admin</a></li>
+    <li><a href="Credits.html">Credits</a></li>
+    <li><a href="Wireframe.pdf">Wireframe</a></li>
+</ul>
+
+
+
+
+
+
+<div class = "admins">
+    <h1>Add a Holiday</h1>
+    <p>Please provide the needed information to add a holiday</p>
+    <form id="AddH" action="admin.php" method="get">
+        <div>Holiday Title: <input type="text" name="holidayTitle"/></div>
+        <div>Duration: <input type="text" name="holidayDuration" /></div>
+        <div>Price: <input type="text" name="holidayPrice"/></div>
+        <div>
+            Category of Holiday:
+            <select name="catID">
+                <option value="c1">Golf</option>
+                <option value="c2">Luxury</option>
+                <option value="c3">Opera</option>
+                <option value="c4">Safari</option>
+                <option value="c5">Tour</option>
+                <option value="c6">Walking</option>
+                <option value="c7">Weddings</option>
+            </select>
+        </div>
+        <div>
+            Location of Holiday:
+            <select name="locationID">
+                <option value="l1">Milaidhoo Island</option>
+                <option value="l2">Ranali Island</option>
+                <option value="l3">Zanzibar</option>
+                <option value="l4">Boston</option>
+                <option value="l5">San Francisco</option>
+                <option value="l6">Nairobi</option>
+                <option value="l7">Algrave</option>
+                <option value="l8">New York</option>
+                <option value="l9">Sorrento</option>
+                <option value="l10">Verona</option>
+            </select>
+        </div>
+
+
+
+        <div>
+            Add a description for the holiday: <br />
+            <textarea name="holidayDescription"
+                      style="width:500px; height:120px;"></textarea>
+        </div>
+        <div><input type="submit" value="Send feedback" /></div>
+    </form>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
